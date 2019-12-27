@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+development:
+  <<: *default
+  database: react_on_rails
+  username: root
+  password: root
+ 
+
+production:
+  <<: *default
+  database: react_on_rails
+  username: root
+  password: root
